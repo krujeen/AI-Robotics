@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # vid = cv2.VideoCapture(0)
-vid = cv2.VideoCapture("rtsp://admin:passwordd@192.168.1.2:554/stream1")
+vid = cv2.VideoCapture("rtsp://admin:passwordd@192.168.1.2:554/stream1")  #แก้ไขให้ตรงกับกล้อง ip CCTV
 
 while(True):
     ret, frame = vid.read()
